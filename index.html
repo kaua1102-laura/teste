@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Técnico Eletricista - Calculadora Elétrica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RELETRICA</h1>
+        <p>Calculadora Elétrica e Conteúdos Técnicos</p>
+    </header>
+
+    <section id="calculadora">
+        <h2>Calculadora Elétrica</h2>
+        <form id="calcForm">
+            <label for="tensao">Tensão (V):</label>
+            <input type="number" id="tensao" placeholder="Ex: 220" required>
+
+            <label for="corrente">Corrente (A):</label>
+            <input type="number" id="corrente" placeholder="Ex: 5" required>
+
+            <button type="submit">Calcular Potência</button>
+        </form>
+        <h3>Potência (P) = <span id="resultadoPotencia">0</span> W</h3>
+    </section>
+
+    <section id="conteudo">
+      <h2>Conteúdo Técnico</h2>
+      <p>Aqui você encontrará dicas e cálculos úteis para o dia a dia de um técnico eletricista.</p>
+      <ul>
+          <li><a href="lei_de_ohm.html">Lei de Ohm</a></li>
+          <li><a href="calculo_resistencia.html">Cálculo de Resistência</a></li>
+          <li><a href="potencia_eletrica.html">Potência Elétrica</a></li>
+          <li><a href="formulas_tabelas.html">Fórmulas e Tabelas</a></li>
+          
+      </ul>
+  </section>
+  
+
+    <footer>
+        <p>&copy; Kauã Araujo Sepriano
+          2024 - Técnico Eletricista</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
